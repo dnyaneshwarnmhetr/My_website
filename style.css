@@ -216,3 +216,47 @@ button:hover {
     font-size: 18px;
     line-height: 1.7;
 }
+/* Services Section */
+
+.services {
+    padding: 70px 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 280px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
