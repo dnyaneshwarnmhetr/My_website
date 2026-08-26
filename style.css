@@ -301,3 +301,6 @@ button:hover {
 .whatsapp-button:hover {
     opacity: 0.85;
 }
+html {
+    scroll-behavior: smooth;
+}
